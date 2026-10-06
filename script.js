@@ -127,3 +127,159 @@
     sections.forEach((section) => sectionObserver.observe(section));
   }
 })();
+
+(() => {
+  // Coding Stats functionality
+  const statsContainer = document.getElementById('coding-stats');
+  if (!statsContainer) return;
+
+  const loadStats = async () => {
+    try {
+      const res = await fetch('data/coding-stats.json');
+      if (!res.ok) throw new Error('Failed to load stats');
+      const stats = await res.json();
+      renderStats(stats);
+    } catch (e) {
+      console.warn('Could not load coding stats, using fallback.', e);
+      // Fallback data
+      const stats = {
+        totalContributions: 560,
+        publicRepos: 24,
+        currentStreak: 14,
+        languagesCount: 8,
+        languages: [
+          { name: "TypeScript", percentage: 38.5, color: "#3178c6" },
+          { name: "Python", percentage: 24.2, color: "#3572A5" },
+          { name: "JavaScript", percentage: 18.1, color: "#f1e05a" },
+          { name: "Rust", percentage: 11.4, color: "#dea584" },
+          { name: "C++", percentage: 4.6, color: "#f34b7d" },
+          { name: "Kotlin", percentage: 3.2, color: "#A97BFF" },
+        ],
+        months: ["Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+        contributionWeeks: []
+      };
+      renderStats(stats);
+    }
+  };
+
+  const renderStats = (stats) => {
+    // 1. Metrics
+    const metricsGrid = document.getElementById('stats-metrics');
+    if (metricsGrid) {
+      metricsGrid.innerHTML = `
+        <div class="metric-card">
+          <div class="metric-header"><span>Contributions</span><div class="metric-icon" style="background: rgba(16, 185, 129, 0.1); color: #39d353"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path></svg></div></div>
+          <div class="metric-value">${stats.totalContributions}</div>
+          <span class="metric-label" style="color: #39d353">In the last year</span>
+        </div>
+        <div class="metric-card">
+          <div class="metric-header"><span>Public Repos</span><div class="metric-icon" style="background: rgba(6, 182, 212, 0.1); color: #22d3ee"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg></div></div>
+          <div class="metric-value">${stats.publicRepos}</div>
+          <span class="metric-label" style="color: #22d3ee">Open Source Projects</span>
+        </div>
+        <div class="metric-card">
+          <div class="metric-header"><span>Current Streak</span><div class="metric-icon" style="background: rgba(245, 158, 11, 0.1); color: #fbbf24"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div></div>
+          <div class="metric-value">${stats.currentStreak} <span>Days</span></div>
+          <span class="metric-label" style="color: #fbbf24">Active Commits</span>
+        </div>
+        <div class="metric-card">
+          <div class="metric-header"><span>Languages</span><div class="metric-icon" style="background: rgba(168, 85, 247, 0.1); color: #d8b4fe"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg></div></div>
+          <div class="metric-value">${stats.languagesCount}</div>
+          <span class="metric-label" style="color: #d8b4fe">Technologies Used</span>
+        </div>
+      `;
+    }
+
+    // 2. Languages
+    const langBar = document.getElementById('lang-bar');
+    const langList = document.getElementById('lang-list');
+    if (langBar && langList) {
+      langBar.innerHTML = stats.languages.map(l => 
+        `<div class="lang-segment" style="width: ${l.percentage}%; background-color: ${l.color}" title="${l.name}: ${l.percentage}%"></div>`
+      ).join('');
+      
+      langList.innerHTML = stats.languages.map(l => `
+        <div class="lang-item">
+          <div class="lang-item-left">
+            <span class="lang-dot" style="background-color: ${l.color}"></span>
+            <span class="lang-name">${l.name}</span>
+          </div>
+          <span class="lang-pct">${l.percentage}%</span>
+        </div>
+      `).join('');
+    }
+
+    // 3. Contribution Grid
+    const totalEl = document.getElementById('contrib-total');
+    if (totalEl) totalEl.textContent = \`\${stats.totalContributions} contributions in the last year\`;
+
+    const contribMonths = document.getElementById('contrib-months');
+    if (contribMonths && stats.months) {
+      contribMonths.innerHTML = stats.months.map(m => \`<span>\${m}</span>\`).join('');
+    }
+
+    const contribGrid = document.getElementById('contrib-grid');
+    if (contribGrid && stats.contributionWeeks && stats.contributionWeeks.length > 0) {
+      let gridHTML = '';
+      stats.contributionWeeks.forEach(week => {
+        gridHTML += \`<div class="contrib-week">\`;
+        week.forEach(day => {
+          gridHTML += \`
+            <div class="contrib-cell level-\${day.level}">
+              <div class="contrib-tooltip">
+                <strong>\${day.count === 0 ? 'No contributions' : day.count + ' contributions'}</strong>
+                <span>\${day.formattedDate}</span>
+              </div>
+            </div>
+          \`;
+        });
+        gridHTML += \`</div>\`;
+      });
+      contribGrid.innerHTML = gridHTML;
+
+      // 4. Monthly Velocity
+      const velocityChart = document.getElementById('velocity-chart');
+      if (velocityChart && stats.months) {
+        let maxMonthly = 0;
+        const monthlyData = stats.months.map(m => {
+          const monthVal = stats.contributionWeeks.reduce((acc, week) => {
+            const dayInMonth = week.find(d => new Date(d.date).toLocaleDateString("en-US", { month: "short" }) === m);
+            return acc + (dayInMonth ? dayInMonth.count : 0);
+          }, 0);
+          if (monthVal > maxMonthly) maxMonthly = monthVal;
+          return { name: m, value: monthVal };
+        });
+
+        let peakMonth = { name: '-', value: 0 };
+        velocityChart.innerHTML = monthlyData.map(d => {
+          if (d.value > peakMonth.value) peakMonth = d;
+          const heightPercent = Math.min(100, Math.max(12, (d.value / Math.max(1, maxMonthly)) * 100));
+          return \`
+            <div class="velocity-bar-col">
+              <span class="velocity-val">\${d.value * 2}</span>
+              <div class="velocity-bar-wrap">
+                <div class="velocity-bar" style="height: \${heightPercent}%"></div>
+              </div>
+              <span class="velocity-label">\${d.name}</span>
+            </div>
+          \`;
+        }).join('');
+
+        const peakEl = document.getElementById('peak-month');
+        if (peakEl) peakEl.textContent = \`\${peakMonth.name} (\${peakMonth.value * 2} Commits)\`;
+        
+        const dailyAvg = document.getElementById('daily-avg');
+        if (dailyAvg) {
+          dailyAvg.textContent = \`\${(stats.totalContributions / 365).toFixed(1)} Commits / Day\`;
+        }
+      }
+    } else {
+        // Render dummy grid if no data
+        contribGrid.innerHTML = Array(52).fill(0).map(() => 
+          \`<div class="contrib-week">\${Array(7).fill(0).map(() => \`<div class="contrib-cell level-0"></div>\`).join('')}</div>\`
+        ).join('');
+    }
+  };
+
+  loadStats();
+})();
