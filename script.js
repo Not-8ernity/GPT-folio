@@ -211,29 +211,29 @@
 
     // 3. Contribution Grid
     const totalEl = document.getElementById('contrib-total');
-    if (totalEl) totalEl.textContent = \`\${stats.totalContributions} contributions in the last year\`;
+    if (totalEl) totalEl.textContent = `${stats.totalContributions} contributions in the last year`;
 
     const contribMonths = document.getElementById('contrib-months');
     if (contribMonths && stats.months) {
-      contribMonths.innerHTML = stats.months.map(m => \`<span>\${m}</span>\`).join('');
+      contribMonths.innerHTML = stats.months.map(m => `<span>${m}</span>`).join('');
     }
 
     const contribGrid = document.getElementById('contrib-grid');
     if (contribGrid && stats.contributionWeeks && stats.contributionWeeks.length > 0) {
       let gridHTML = '';
       stats.contributionWeeks.forEach(week => {
-        gridHTML += \`<div class="contrib-week">\`;
+        gridHTML += `<div class="contrib-week">`;
         week.forEach(day => {
-          gridHTML += \`
-            <div class="contrib-cell level-\${day.level}">
+          gridHTML += `
+            <div class="contrib-cell level-${day.level}">
               <div class="contrib-tooltip">
-                <strong>\${day.count === 0 ? 'No contributions' : day.count + ' contributions'}</strong>
-                <span>\${day.formattedDate}</span>
+                <strong>${day.count === 0 ? 'No contributions' : day.count + ' contributions'}</strong>
+                <span>${day.formattedDate}</span>
               </div>
             </div>
-          \`;
+          `;
         });
-        gridHTML += \`</div>\`;
+        gridHTML += `</div>`;
       });
       contribGrid.innerHTML = gridHTML;
 
@@ -254,29 +254,29 @@
         velocityChart.innerHTML = monthlyData.map(d => {
           if (d.value > peakMonth.value) peakMonth = d;
           const heightPercent = Math.min(100, Math.max(12, (d.value / Math.max(1, maxMonthly)) * 100));
-          return \`
+          return `
             <div class="velocity-bar-col">
-              <span class="velocity-val">\${d.value * 2}</span>
+              <span class="velocity-val">${d.value * 2}</span>
               <div class="velocity-bar-wrap">
-                <div class="velocity-bar" style="height: \${heightPercent}%"></div>
+                <div class="velocity-bar" style="height: ${heightPercent}%"></div>
               </div>
-              <span class="velocity-label">\${d.name}</span>
+              <span class="velocity-label">${d.name}</span>
             </div>
-          \`;
+          `;
         }).join('');
 
         const peakEl = document.getElementById('peak-month');
-        if (peakEl) peakEl.textContent = \`\${peakMonth.name} (\${peakMonth.value * 2} Commits)\`;
+        if (peakEl) peakEl.textContent = `${peakMonth.name} (${peakMonth.value * 2} Commits)`;
         
         const dailyAvg = document.getElementById('daily-avg');
         if (dailyAvg) {
-          dailyAvg.textContent = \`\${(stats.totalContributions / 365).toFixed(1)} Commits / Day\`;
+          dailyAvg.textContent = `${(stats.totalContributions / 365).toFixed(1)} Commits / Day`;
         }
       }
     } else {
         // Render dummy grid if no data
         contribGrid.innerHTML = Array(52).fill(0).map(() => 
-          \`<div class="contrib-week">\${Array(7).fill(0).map(() => \`<div class="contrib-cell level-0"></div>\`).join('')}</div>\`
+          `<div class="contrib-week">${Array(7).fill(0).map(() => `<div class="contrib-cell level-0"></div>`).join('')}</div>`
         ).join('');
     }
   };
