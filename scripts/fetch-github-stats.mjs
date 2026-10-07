@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const USERNAME = "8ernity";
+const USERNAME = "Not-8ernity";
 const OUTPUT_FILE = path.join(process.cwd(), "data", "coding-stats.json");
 
 // Language color mapping matching GitHub standards

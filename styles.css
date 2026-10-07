@@ -214,12 +214,7 @@ body.light-theme{background:#d3d3d5;color:#222225}
   margin-top: 12px;
 }
 
-.stats-grid {
-  display: grid;
-  grid-template-columns: 5fr 7fr;
-  gap: 32px;
-  width: 100%;
-}
+.stats-single-wrapper { display: flex; justify-content: center; width: 100%; } .stats-single-wrapper .stats-right { width: 100%; max-width: 900px; }
 
 .metrics-grid {
   display: grid;
