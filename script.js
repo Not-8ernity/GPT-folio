@@ -135,7 +135,7 @@
 
   const loadStats = async () => {
     try {
-      const res = await fetch('data/coding-stats.json');
+      const res = await fetch('data/coding-stats.json?t=' + Date.now());
       if (!res.ok) throw new Error('Failed to load stats');
       const stats = await res.json();
       renderStats(stats);
@@ -191,6 +191,13 @@
       });
       contribGrid.innerHTML = gridHTML;
 
+      // Auto-scroll to the rightmost edge to show recent contributions
+      setTimeout(() => {
+        const scrollEl = document.querySelector('.contrib-scroll');
+        if (scrollEl) {
+          scrollEl.scrollLeft = scrollEl.scrollWidth;
+        }
+      }, 50);
     } else {
         // Render dummy grid if no data
         contribGrid.innerHTML = Array(52).fill(0).map(() => 
