@@ -111,6 +111,16 @@ async function fetchGitHubStats() {
       console.log("Error fetching public contribution calendar:", e.message);
     }
 
+    // Generate last 12 months dynamically for the headers
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const currentMonthIndex = new Date().getMonth();
+    const dynamicMonths = [];
+    for (let i = 11; i >= 0; i--) {
+      const d = new Date();
+      d.setMonth(currentMonthIndex - i);
+      dynamicMonths.push(monthNames[d.getMonth()]);
+    }
+
     // Generate output JSON structure
     const outputData = {
       username: USERNAME,
@@ -127,7 +137,7 @@ async function fetchGitHubStats() {
         { name: "C++", percentage: 4.6, color: "#f34b7d" },
         { name: "Kotlin", percentage: 3.2, color: "#A97BFF" },
       ],
-      months: ["Aug", "Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+      months: dynamicMonths,
       lastUpdated: new Date().toISOString(),
     };
 

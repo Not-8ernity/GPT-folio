@@ -389,21 +389,23 @@ body.light-theme{background:#d3d3d5;color:#222225}
   gap: 4px;
 }
 .legend-squares span, .contrib-cell {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 2px;
-  border: 1px solid;
+  border: none;
+  outline: 1px solid rgba(255,255,255,0.05);
+  outline-offset: -1px;
 }
-.level-0 { background: #161b22; border-color: #21262d; }
-.level-1 { background: #0e4429; border-color: #0e4429; }
-.level-2 { background: #006d32; border-color: #006d32; }
-.level-3 { background: #26a641; border-color: #26a641; }
-.level-4 { background: #39d353; border-color: #39d353; }
+.level-0 { background: #161b22; }
+.level-1 { background: #0e4429; }
+.level-2 { background: #006d32; }
+.level-3 { background: #26a641; }
+.level-4 { background: #39d353; }
 .level-3.contrib-cell:hover { box-shadow: 0 0 6px rgba(38,166,65,0.4); background: #2ebd49; }
 .level-4.contrib-cell:hover { box-shadow: 0 0 12px rgba(57,211,83,0.9); transform: scale(1.25); z-index: 10; }
 
 .contrib-cell { transition: all 0.1s; position: relative; cursor: pointer; }
-.contrib-cell:hover { border-color: rgba(255,255,255,0.4); }
+.contrib-cell:hover { outline: 1px solid rgba(255,255,255,0.4); z-index: 10; }
 
 .contrib-tooltip {
   position: absolute;
