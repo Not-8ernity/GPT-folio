@@ -2297,22 +2297,22 @@
   "languages": [
     {
       "name": "CSS",
-      "percentage": 48.5,
+      "percentage": 48.3,
       "color": "#563d7c"
     },
     {
       "name": "HTML",
-      "percentage": 25.4,
+      "percentage": 25.3,
       "color": "#e34c26"
     },
     {
       "name": "JavaScript",
-      "percentage": 21.8,
+      "percentage": 22.2,
       "color": "#f1e05a"
     },
     {
       "name": "Python",
-      "percentage": 4.3,
+      "percentage": 4.2,
       "color": "#3572A5"
     }
   ],
@@ -2330,5 +2330,5 @@
     "Sep",
     "Oct"
   ],
-  "lastUpdated": "2026-10-07T11:06:06.539Z"
+  "lastUpdated": "2026-10-07T11:13:17.751Z"
 }
