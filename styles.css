@@ -393,10 +393,9 @@ body.light-theme{background:#d3d3d5;color:#222225}
   height: 10px;
   border-radius: 2px;
   border: none;
-  outline: 1px solid rgba(255,255,255,0.05);
-  outline-offset: -1px;
+  outline: none;
 }
-.level-0 { background: #161b22; }
+.level-0 { background: #21262d; }
 .level-1 { background: #0e4429; }
 .level-2 { background: #006d32; }
 .level-3 { background: #26a641; }
@@ -405,7 +404,7 @@ body.light-theme{background:#d3d3d5;color:#222225}
 .level-4.contrib-cell:hover { box-shadow: 0 0 12px rgba(57,211,83,0.9); transform: scale(1.25); z-index: 10; }
 
 .contrib-cell { transition: all 0.1s; position: relative; cursor: pointer; }
-.contrib-cell:hover { outline: 1px solid rgba(255,255,255,0.4); z-index: 10; }
+.contrib-cell:hover { box-shadow: 0 0 0 1px rgba(255,255,255,0.4); z-index: 10; }
 
 .contrib-tooltip {
   position: absolute;
@@ -470,13 +469,13 @@ body.light-theme{background:#d3d3d5;color:#222225}
 .contrib-grid {
   display: flex;
   gap: 4px;
-  flex: 1;
+  flex: none;
 }
 .contrib-week {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  flex: 1;
+  flex: none;
 }
 
 .velocity-section {
