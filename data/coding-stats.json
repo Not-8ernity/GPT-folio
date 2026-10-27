@@ -1,17 +1,11 @@
 {
   "username": "Not-8ernity",
-  "totalContributions": 27,
+  "totalContributions": 28,
   "publicRepos": 1,
   "languagesCount": 4,
   "currentStreak": 14,
   "contributionWeeks": [
     [
-      {
-        "date": "2025-10-28",
-        "formattedDate": "Oct 28, 2025",
-        "count": 0,
-        "level": 0
-      },
       {
         "date": "2025-10-29",
         "formattedDate": "Oct 29, 2025",
@@ -47,15 +41,15 @@
         "formattedDate": "Nov 3, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-11-04",
         "formattedDate": "Nov 4, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-11-05",
         "formattedDate": "Nov 5, 2025",
@@ -91,15 +85,15 @@
         "formattedDate": "Nov 10, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-11-11",
         "formattedDate": "Nov 11, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-11-12",
         "formattedDate": "Nov 12, 2025",
@@ -135,15 +129,15 @@
         "formattedDate": "Nov 17, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-11-18",
         "formattedDate": "Nov 18, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-11-19",
         "formattedDate": "Nov 19, 2025",
@@ -179,15 +173,15 @@
         "formattedDate": "Nov 24, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-11-25",
         "formattedDate": "Nov 25, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-11-26",
         "formattedDate": "Nov 26, 2025",
@@ -223,15 +217,15 @@
         "formattedDate": "Dec 1, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-02",
         "formattedDate": "Dec 2, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-03",
         "formattedDate": "Dec 3, 2025",
@@ -267,15 +261,15 @@
         "formattedDate": "Dec 8, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-09",
         "formattedDate": "Dec 9, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-10",
         "formattedDate": "Dec 10, 2025",
@@ -311,15 +305,15 @@
         "formattedDate": "Dec 15, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-16",
         "formattedDate": "Dec 16, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-17",
         "formattedDate": "Dec 17, 2025",
@@ -355,15 +349,15 @@
         "formattedDate": "Dec 22, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-23",
         "formattedDate": "Dec 23, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-24",
         "formattedDate": "Dec 24, 2025",
@@ -399,15 +393,15 @@
         "formattedDate": "Dec 29, 2025",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2025-12-30",
         "formattedDate": "Dec 30, 2025",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2025-12-31",
         "formattedDate": "Dec 31, 2025",
@@ -443,15 +437,15 @@
         "formattedDate": "Jan 5, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-06",
         "formattedDate": "Jan 6, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-07",
         "formattedDate": "Jan 7, 2026",
@@ -487,15 +481,15 @@
         "formattedDate": "Jan 12, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-13",
         "formattedDate": "Jan 13, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-14",
         "formattedDate": "Jan 14, 2026",
@@ -531,15 +525,15 @@
         "formattedDate": "Jan 19, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-20",
         "formattedDate": "Jan 20, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-21",
         "formattedDate": "Jan 21, 2026",
@@ -575,15 +569,15 @@
         "formattedDate": "Jan 26, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-01-27",
         "formattedDate": "Jan 27, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-01-28",
         "formattedDate": "Jan 28, 2026",
@@ -619,15 +613,15 @@
         "formattedDate": "Feb 2, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-03",
         "formattedDate": "Feb 3, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-04",
         "formattedDate": "Feb 4, 2026",
@@ -663,15 +657,15 @@
         "formattedDate": "Feb 9, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-10",
         "formattedDate": "Feb 10, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-11",
         "formattedDate": "Feb 11, 2026",
@@ -707,15 +701,15 @@
         "formattedDate": "Feb 16, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-17",
         "formattedDate": "Feb 17, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-18",
         "formattedDate": "Feb 18, 2026",
@@ -751,15 +745,15 @@
         "formattedDate": "Feb 23, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-02-24",
         "formattedDate": "Feb 24, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-02-25",
         "formattedDate": "Feb 25, 2026",
@@ -795,15 +789,15 @@
         "formattedDate": "Mar 2, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-03",
         "formattedDate": "Mar 3, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-03-04",
         "formattedDate": "Mar 4, 2026",
@@ -839,15 +833,15 @@
         "formattedDate": "Mar 9, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-10",
         "formattedDate": "Mar 10, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-03-11",
         "formattedDate": "Mar 11, 2026",
@@ -883,15 +877,15 @@
         "formattedDate": "Mar 16, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-17",
         "formattedDate": "Mar 17, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-03-18",
         "formattedDate": "Mar 18, 2026",
@@ -927,15 +921,15 @@
         "formattedDate": "Mar 23, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-24",
         "formattedDate": "Mar 24, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-03-25",
         "formattedDate": "Mar 25, 2026",
@@ -971,15 +965,15 @@
         "formattedDate": "Mar 30, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-03-31",
         "formattedDate": "Mar 31, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-04-01",
         "formattedDate": "Apr 1, 2026",
@@ -1015,15 +1009,15 @@
         "formattedDate": "Apr 6, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-04-07",
         "formattedDate": "Apr 7, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-04-08",
         "formattedDate": "Apr 8, 2026",
@@ -1059,15 +1053,15 @@
         "formattedDate": "Apr 13, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-04-14",
         "formattedDate": "Apr 14, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-04-15",
         "formattedDate": "Apr 15, 2026",
@@ -1103,15 +1097,15 @@
         "formattedDate": "Apr 20, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-04-21",
         "formattedDate": "Apr 21, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-04-22",
         "formattedDate": "Apr 22, 2026",
@@ -1147,15 +1141,15 @@
         "formattedDate": "Apr 27, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-04-28",
         "formattedDate": "Apr 28, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-04-29",
         "formattedDate": "Apr 29, 2026",
@@ -1191,15 +1185,15 @@
         "formattedDate": "May 4, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-05-05",
         "formattedDate": "May 5, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-05-06",
         "formattedDate": "May 6, 2026",
@@ -1235,15 +1229,15 @@
         "formattedDate": "May 11, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-05-12",
         "formattedDate": "May 12, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-05-13",
         "formattedDate": "May 13, 2026",
@@ -1279,15 +1273,15 @@
         "formattedDate": "May 18, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-05-19",
         "formattedDate": "May 19, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-05-20",
         "formattedDate": "May 20, 2026",
@@ -1323,15 +1317,15 @@
         "formattedDate": "May 25, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-05-26",
         "formattedDate": "May 26, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-05-27",
         "formattedDate": "May 27, 2026",
@@ -1367,15 +1361,15 @@
         "formattedDate": "Jun 1, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-06-02",
         "formattedDate": "Jun 2, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-06-03",
         "formattedDate": "Jun 3, 2026",
@@ -1411,15 +1405,15 @@
         "formattedDate": "Jun 8, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-06-09",
         "formattedDate": "Jun 9, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-06-10",
         "formattedDate": "Jun 10, 2026",
@@ -1455,15 +1449,15 @@
         "formattedDate": "Jun 15, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-06-16",
         "formattedDate": "Jun 16, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-06-17",
         "formattedDate": "Jun 17, 2026",
@@ -1499,15 +1493,15 @@
         "formattedDate": "Jun 22, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-06-23",
         "formattedDate": "Jun 23, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-06-24",
         "formattedDate": "Jun 24, 2026",
@@ -1543,15 +1537,15 @@
         "formattedDate": "Jun 29, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-06-30",
         "formattedDate": "Jun 30, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-07-01",
         "formattedDate": "Jul 1, 2026",
@@ -1587,15 +1581,15 @@
         "formattedDate": "Jul 6, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-07-07",
         "formattedDate": "Jul 7, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-07-08",
         "formattedDate": "Jul 8, 2026",
@@ -1631,15 +1625,15 @@
         "formattedDate": "Jul 13, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-07-14",
         "formattedDate": "Jul 14, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-07-15",
         "formattedDate": "Jul 15, 2026",
@@ -1675,15 +1669,15 @@
         "formattedDate": "Jul 20, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-07-21",
         "formattedDate": "Jul 21, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-07-22",
         "formattedDate": "Jul 22, 2026",
@@ -1719,15 +1713,15 @@
         "formattedDate": "Jul 27, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-07-28",
         "formattedDate": "Jul 28, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-07-29",
         "formattedDate": "Jul 29, 2026",
@@ -1763,15 +1757,15 @@
         "formattedDate": "Aug 3, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-08-04",
         "formattedDate": "Aug 4, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-08-05",
         "formattedDate": "Aug 5, 2026",
@@ -1807,15 +1801,15 @@
         "formattedDate": "Aug 10, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-08-11",
         "formattedDate": "Aug 11, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-08-12",
         "formattedDate": "Aug 12, 2026",
@@ -1851,15 +1845,15 @@
         "formattedDate": "Aug 17, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-08-18",
         "formattedDate": "Aug 18, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-08-19",
         "formattedDate": "Aug 19, 2026",
@@ -1895,15 +1889,15 @@
         "formattedDate": "Aug 24, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-08-25",
         "formattedDate": "Aug 25, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-08-26",
         "formattedDate": "Aug 26, 2026",
@@ -1939,15 +1933,15 @@
         "formattedDate": "Aug 31, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-09-01",
         "formattedDate": "Sep 1, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-09-02",
         "formattedDate": "Sep 2, 2026",
@@ -1983,15 +1977,15 @@
         "formattedDate": "Sep 7, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-09-08",
         "formattedDate": "Sep 8, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-09-09",
         "formattedDate": "Sep 9, 2026",
@@ -2027,15 +2021,15 @@
         "formattedDate": "Sep 14, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-09-15",
         "formattedDate": "Sep 15, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-09-16",
         "formattedDate": "Sep 16, 2026",
@@ -2071,15 +2065,15 @@
         "formattedDate": "Sep 21, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-09-22",
         "formattedDate": "Sep 22, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-09-23",
         "formattedDate": "Sep 23, 2026",
@@ -2115,15 +2109,15 @@
         "formattedDate": "Sep 28, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-09-29",
         "formattedDate": "Sep 29, 2026",
         "count": 0,
         "level": 0
-      },
+      }
+    ],
+    [
       {
         "date": "2026-09-30",
         "formattedDate": "Sep 30, 2026",
@@ -2159,15 +2153,15 @@
         "formattedDate": "Oct 5, 2026",
         "count": 0,
         "level": 0
-      }
-    ],
-    [
+      },
       {
         "date": "2026-10-06",
         "formattedDate": "Oct 6, 2026",
         "count": 4,
         "level": 4
-      },
+      }
+    ],
+    [
       {
         "date": "2026-10-07",
         "formattedDate": "Oct 7, 2026",
@@ -2203,15 +2197,15 @@
         "formattedDate": "Oct 12, 2026",
         "count": 1,
         "level": 1
-      }
-    ],
-    [
+      },
       {
         "date": "2026-10-13",
         "formattedDate": "Oct 13, 2026",
         "count": 1,
         "level": 1
-      },
+      }
+    ],
+    [
       {
         "date": "2026-10-14",
         "formattedDate": "Oct 14, 2026",
@@ -2247,15 +2241,15 @@
         "formattedDate": "Oct 19, 2026",
         "count": 1,
         "level": 1
-      }
-    ],
-    [
+      },
       {
         "date": "2026-10-20",
         "formattedDate": "Oct 20, 2026",
         "count": 1,
         "level": 1
-      },
+      }
+    ],
+    [
       {
         "date": "2026-10-21",
         "formattedDate": "Oct 21, 2026",
@@ -2289,6 +2283,12 @@
       {
         "date": "2026-10-26",
         "formattedDate": "Oct 26, 2026",
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-10-27",
+        "formattedDate": "Oct 27, 2026",
         "count": 0,
         "level": 0
       }
@@ -2330,5 +2330,5 @@
     "Sep",
     "Oct"
   ],
-  "lastUpdated": "2026-10-26T00:15:16.351Z"
+  "lastUpdated": "2026-10-27T00:17:55.175Z"
 }
